@@ -35,6 +35,16 @@ python3 scripts/udf_tool.py yaz belge.txt belge.udf
 
 Yazdıktan sonra dosyayı okuma komutuyla açıp içeriği kontrol et.
 
+### Dilekçe bölüm başlıkları
+
+`SONUÇ VE İSTEM`, `AÇIKLAMALAR` gibi bölüm başlıklarını **ortalama**. Sola dayalı, kalın ve sonunda iki nokta üst üste ile yaz; içerik bir alt satırdan başlar:
+
+```
+**SONUÇ VE İSTEM\t:**
+
+[iki] Yukarıda açıklanan nedenlerle ...
+```
+
 ## Python ile
 
 ```python
